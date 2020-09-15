@@ -1,5 +1,3 @@
-
-
 (defn factorial [n]
   (if (= n 0) 1
       (* n (factorial (dec n)))))
@@ -19,4 +17,7 @@
         (if (<= i 1) val)
         (recur (*' val (dec i)) (dec i)))))
 
-(factorial 10)
+(comment
+  (factorial 3)
+  (factorial 4))
+
