@@ -5,7 +5,6 @@
 ; Happy coding! ♥️
 
 ; Jacking in...
-; nREPL Connection was closed
 ; Hooking up nREPL sessions...
 ; Connected session: clj
 ; TIPS: 
@@ -17,263 +16,49 @@
 ;   - File URLs in stacktrace frames are peekable and clickable.
 clj::my-stuff.core=>
 ; Jack-in done.
-10
+; Evaluating file: tic-tac-toe.clj
+#'user/player-sequence
 clj::user=>
-10
-clj::user=>
-; CompilerException java.lang.RuntimeException: Unable to resolve symbol: n in this context, compiling:(/Users/joonapiirainen/Documents/clojure/clojure-practice/src/factorial.clj:3:7) 
-[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
- {:file "Compiler.java" :line 1009 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6868 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
- {:file "Compiler.java" :line 6863 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
- {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
- {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
- {:file "AFn.java" :line 22 :method "run" :flags [:java]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
- {:file "AFn.java" :line 22 :method "run" :flags [:java]}
- {:file "jar:file:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/lang/Thread.java:748" :method "run" :flags [:java]}]
-clj::user=>
-#'user/factorial
-clj::user=>
-3
-clj::user=>
-6
-clj::user=>
-6
-clj::user=>
-3
-clj::user=>
-6
-clj::user=>
-24
-clj::user=>
-24
-clj::user=>
-; Evaluating file: rps.clj
+; Evaluating file: tic-tac-toe.clj
+Current board:
+1 2 3
+4 5 6
+7 8 9
+Select your move, player x  (press 1 - 9 and hit enter):
+Current board:
+x 2 3
+4 5 6
+7 8 9
+Select your move, player o  (press 1 - 9 and hit enter):
+Current board:
+x 2 3
+4 5 o
+7 8 9
+Select your move, player x  (press 1 - 9 and hit enter):
+Current board:
+x x 3
+4 5 o
+7 8 9
+Select your move, player o  (press 1 - 9 and hit enter):
+Current board:
+x x 3
+o 5 o
+7 8 9
+Select your move, player x  (press 1 - 9 and hit enter):
+Current board:
+x x x
+o 5 o
+7 8 9
+Player x wins!
 nil
-clj::user=>
-2
-clj::user=>
-
-clj::user=> (play-hand)
-
-clj::user=>
-
-clj::user=>
-; CompilerException java.lang.RuntimeException: Unable to resolve symbol: play-hand in this context, compiling:(/Users/joonapiirainen/Documents/clojure/clojure-practice/src/rps.clj:31:3) 
-[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
- {:file "Compiler.java" :line 3766 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6870 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
- {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
- {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
- {:file "AFn.java" :line 22 :method "run" :flags [:java]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
- {:file "AFn.java" :line 22 :method "run" :flags [:java]}
- {:file "Thread.java" :line 748 :method "run" :flags [:java]}]
-clj::user=>
-; CompilerException java.lang.RuntimeException: Unable to resolve symbol: play-hand in this context, compiling:(/Users/joonapiirainen/Documents/clojure/clojure-practice/src/rps.clj:31:3) 
-[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
- {:file "Compiler.java" :line 3766 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6870 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
- {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6319 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6868 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
- {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
- {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
- {:file "AFn.java" :line 22 :method "run" :flags [:java]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
- {:file "AFn.java" :line 22 :method "run" :flags [:java]}
- {:file "Thread.java" :line 748 :method "run" :flags [:java]}]
-clj::user=>
-; CompilerException java.lang.RuntimeException: Unable to resolve symbol: play-hand in this context, compiling:(/Users/joonapiirainen/Documents/clojure/clojure-practice/src/rps.clj:31:3) 
-[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
- {:file "Compiler.java" :line 3766 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6870 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
- {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
- {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
- {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
- {:file "AFn.java" :line 22 :method "run" :flags [:java]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
- {:file "jar:file:/Users/joonapiirainen/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
- {:file "AFn.java" :line 22 :method "run" :flags [:java]}
- {:file "Thread.java" :line 748 :method "run" :flags [:java]}]
-clj::user=>
-; Evaluating file: rps.clj
-; CompilerException clojure.lang.ArityException: Wrong number of args (0) passed to: core/ns, compiling:(/Users/joonapiirainen/Documents/clojure/clojure-practice/src/rps.clj:1:1) 
-; Evaluation of file rps.clj failed: class clojure.lang.Compiler$CompilerException
-; Evaluating file: rps.clj
-; CompilerException clojure.lang.ArityException: Wrong number of args (0) passed to: core/ns, compiling:(/Users/joonapiirainen/Documents/clojure/clojure-practice/src/rps.clj:1:1) 
-; Evaluation of file rps.clj failed: class clojure.lang.Compiler$CompilerException
-; Evaluating file: rps.clj
-Play your hand: (r)ock, (p)aper, (s)cissors
-The computer guessed: s
-You guessed: r
-Player wins!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
-The computer guessed: s
-You guessed: s
-Game tied!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
-The computer guessed: s
-You guessed: p
-Computer wins!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
-No input provided.
-The computer guessed: s
-You guessed: nil
-Your entry was invalid!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
-The computer guessed: r
-You guessed: nil
-Your entry was invalid!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
-The computer guessed: s
-You guessed: nil
-Your entry was invalid!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
-The computer guessed: s
-You guessed: nil
-Your entry was invalid!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
-No input provided.
-The computer guessed: r
-You guessed: nil
-Your entry was invalid!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
-No input provided.
-The computer guessed: s
-You guessed: nil
-Your entry was invalid!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
-No input provided.
-The computer guessed: r
-You guessed: nil
-Your entry was invalid!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
-No input provided.
-The computer guessed: s
-You guessed: nil
-Your entry was invalid!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
-No input provided.
-The computer guessed: p
-You guessed: nil
-Your entry was invalid!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
-No input provided.
-The computer guessed: p
-You guessed: nil
-Your entry was invalid!
-
-
-Play your hand: (r)ock, (p)aper, (s)cissors
+clj::user=> 
+; Evaluating file: macros.clj
+nil
+clj::user=> 
+; Evaluating file: macros.clj
+hi
+nil
+clj::user=> 
+; Evaluating file: macros.clj
+nil
+clj::user=> 
