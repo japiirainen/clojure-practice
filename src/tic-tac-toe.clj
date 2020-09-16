@@ -1,5 +1,3 @@
-
-
 (defn triple-winner? [triple]
   (if (every? #{:x} triple) :x
       (if (every? #{:o} triple) :o)))

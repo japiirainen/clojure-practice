@@ -16,49 +16,12 @@
 ;   - File URLs in stacktrace frames are peekable and clickable.
 clj::my-stuff.core=>
 ; Jack-in done.
-; Evaluating file: tic-tac-toe.clj
-#'user/player-sequence
+; Evaluating file: snake.clj
+nil
 clj::user=>
-; Evaluating file: tic-tac-toe.clj
-Current board:
-1 2 3
-4 5 6
-7 8 9
-Select your move, player x  (press 1 - 9 and hit enter):
-Current board:
-x 2 3
-4 5 6
-7 8 9
-Select your move, player o  (press 1 - 9 and hit enter):
-Current board:
-x 2 3
-4 5 o
-7 8 9
-Select your move, player x  (press 1 - 9 and hit enter):
-Current board:
-x x 3
-4 5 o
-7 8 9
-Select your move, player o  (press 1 - 9 and hit enter):
-Current board:
-x x 3
-o 5 o
-7 8 9
-Select your move, player x  (press 1 - 9 and hit enter):
-Current board:
-x x x
-o 5 o
-7 8 9
-Player x wins!
+; Evaluating file: snake.clj
+; CompilerException java.lang.IllegalArgumentException: Don't know how to create ISeq from: clojure.lang.Keyword, compiling:(/Users/joonapiirainen/Documents/clojure/clojure-practice/src/snake.clj:1:1) 
+; Evaluation of file snake.clj failed: class clojure.lang.Compiler$CompilerException
+; Evaluating file: snake.clj
 nil
-clj::user=> 
-; Evaluating file: macros.clj
-nil
-clj::user=> 
-; Evaluating file: macros.clj
-hi
-nil
-clj::user=> 
-; Evaluating file: macros.clj
-nil
-clj::user=> 
+clj::snake=>
