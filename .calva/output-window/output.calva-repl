@@ -16,4 +16,384 @@
 ;   - File URLs in stacktrace frames are peekable and clickable.
 clj::my-stuff.core=>
 ; Jack-in done.
+; CompilerException java.lang.RuntimeException: Unable to resolve symbol: fizz? in this context, compiling:(/Users/joona/Documents/dev/GitHub/clojure-practice/src/fizzbuzz.clj:19:3) 
+[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3766 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6870 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 844 :method "run" :flags [:java]}]
+clj::user=>
+; CompilerException java.lang.RuntimeException: Unable to resolve symbol: fizz? in this context, compiling:(/Users/joona/Documents/dev/GitHub/clojure-practice/src/fizzbuzz.clj:19:3) 
+[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3766 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6870 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 844 :method "run" :flags [:java]}]
+clj::user=>
+; CompilerException java.lang.RuntimeException: Unable to resolve symbol: fizz? in this context, compiling:(/Users/joona/Documents/dev/GitHub/clojure-practice/src/fizzbuzz.clj:19:3) 
+[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3766 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6870 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 844 :method "run" :flags [:java]}]
+clj::user=>
+; CompilerException java.lang.RuntimeException: Unable to resolve symbol: fizz? in this context, compiling:(/Users/joona/Documents/dev/GitHub/clojure-practice/src/fizzbuzz.clj:19:3) 
+[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3766 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6870 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 844 :method "run" :flags [:java]}]
+clj::user=>
+; CompilerException java.lang.RuntimeException: Unable to resolve symbol: fizz? in this context, compiling:(/Users/joona/Documents/dev/GitHub/clojure-practice/src/fizzbuzz.clj:18:3) 
+[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3766 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6870 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 844 :method "run" :flags [:java]}]
+clj::user=>
+; CompilerException java.lang.RuntimeException: Unable to resolve symbol: fizz? in this context, compiling:(/Users/joona/Documents/dev/GitHub/clojure-practice/src/fizzbuzz.clj:18:3) 
+[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3766 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6870 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 844 :method "run" :flags [:java]}]
+clj::user=>
+; Evaluating file: fizzbuzz.clj
+true
+clj::user=>
+true
+clj::user=>
+false
+clj::user=>
+; CompilerException java.lang.RuntimeException: Unable to resolve symbol: buzz? in this context, compiling:(/Users/joona/Documents/dev/GitHub/clojure-practice/src/fizzbuzz.clj:23:3) 
+[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3766 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6870 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 844 :method "run" :flags [:java]}]
+clj::user=>
+; CompilerException java.lang.RuntimeException: Unable to resolve symbol: buzz? in this context, compiling:(/Users/joona/Documents/dev/GitHub/clojure-practice/src/fizzbuzz.clj:23:3) 
+[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3766 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6870 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 844 :method "run" :flags [:java]}]
+clj::user=>
+false
+clj::user=>
+true
+clj::user=>
+; Evaluating file: fizzbuzz.clj
+nil
+clj::user=>
+false
+clj::user=>
+true
+clj::user=>
+false
+clj::user=>
+true
+clj::user=>
+true
+clj::user=>
+; CompilerException java.lang.RuntimeException: Unable to resolve symbol: fuzzbuzz2 in this context, compiling:(/Users/joona/Documents/dev/GitHub/clojure-practice/src/fizzbuzz.clj:34:3) 
+[{:file "Compiler.java" :line 6688 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 3766 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6870 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6625 :method "analyze" :flags [:dup :tooling :java]}
+ {:file "Compiler.java" :line 6001 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 5380 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 3972 :method "parse" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6866 :method "analyzeSeq" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6669 :method "analyze" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6924 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 6890 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3105" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj:3101" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:91" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:240" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:258" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/main.clj:174" :fn "repl"  :method "doInvoke" :flags [:clj]}
+ {:file "RestFn.java" :line 1523 :method "invoke" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:84" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:56" :fn "evaluate"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:155" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/joona/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 844 :method "run" :flags [:java]}]
+clj::user=>
+; Evaluating file: fizzbuzz.clj
+nil
+clj::user=>
+13
+clj::user=>
+"fizzbuzz"
+clj::user=>
+"buzz"
+clj::user=>
+"fizz"
+clj::user=>
+"buzz"
+clj::user=>
+; Evaluating file: fizzbuzz.clj
+nil
+clj::user=>
+("1"
+ "2"
+ "fizz"
+ "4"
+ "buzz"
+ "fizz"
+ "7"
+ "8"
+ "fizz"
+ "buzz"
+ "11"
+ "fizz"
+ "13"
+ "14"
+ "fizzBuzz"
+ "16"
+ "17"
+ "fizz"
+ "19"
+ "buzz"
+ "fizz"
+ "22"
+ "23"
+ "fizz"
+ "buzz"
+ "26"
+ "fizz"
+ "28"
+ "29"
+ "fizzBuzz"
+ "31"
+ "32"
+ "fizz"
+ "34"
+ "buzz"
+ "fizz"
+ "37"
+ "38"
+ "fizz"
+ "buzz"
+ "41"
+ "fizz"
+ "43"
+ "44"
+ "fizzBuzz"
+ "46"
+ "47"
+ "fizz"
+ "49"
+ "buzz"
+ ...)
+clj::user=>
 ; nREPL Connection was closed
